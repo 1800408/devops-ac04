@@ -1,4 +1,4 @@
-Import jogovelha
+import jogovelha
 import sys
 
 erroInicializar = False
@@ -16,5 +16,5 @@ if len(jogo) != 3:
             erroInicializar = True
 if erroInicializar:
   sys.exit(1)
-  else:
-    sys.exit(0)
+else:
+  sys.exit(0)
