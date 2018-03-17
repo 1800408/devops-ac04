@@ -3,7 +3,7 @@ import sys
 
 erroInicializar = False
 jogo = jogovelha.inicializar()
-
+ 
 if len(jogo) != 3:
   erroInicializar = True
 else:
@@ -17,4 +17,4 @@ else:
 if erroInicializar:
   sys.exit(1)
 else:
-  sys.exit(0)
+sys.exit(0)
